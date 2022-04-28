@@ -1,0 +1,210 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+
+.logo {
+    width: 40%;
+}
+
+
+/* header */
+
+header {
+    background-image: url(./images/dental-cleaning.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dental-cleaning {
+    width: 110%;
+}
+
+.provide {
+    font-size: 390%;
+    margin-left: 30%;
+    margin-top: 10%;
+    color: navy;
+}
+
+.care {
+    color: #d24949;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+
+/* section-1 */
+
+.section-1 {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.services-heading {
+    text-align: center;
+    padding-top: 5%;
+    color: #d24949;
+}
+
+.child {
+    border: 5px solid black;
+    padding: 3%;
+    background-color: white;
+    border-bottom: 10px solid navy;
+}
+
+.img-1 {
+    margin-left: 40%;
+}
+
+.dental {
+    text-align: center;
+}
+
+.dental-parent {
+    margin-top: 5%;
+}
+
+
+/* section-2 */
+
+.section-2 {
+    margin-top: 10%;
+}
+
+.testimonial {
+    color: #d24949;
+    text-align: center;
+}
+
+.testimonial-image-parent {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lorem {
+    color: navy;
+    text-align: justify;
+}
+
+.unique-image {
+    border-radius: 100%;
+    width: 40%;
+    margin-left: 30%;
+    padding: 3%;
+}
+
+.william {
+    text-align: center;
+    color: #d24949;
+    font-weight: bold;
+}
+
+.child-3,
+.child-4 {
+    width: 40%;
+}
+
+
+/* section-3 */
+
+.section-3 {
+    margin-top: 5%;
+}
+
+.blogs {
+    text-align: center;
+}
+
+.blog-para {
+    text-align: center;
+}
+
+.blog-image {
+    width: 100%;
+}
+
+.blog-row {
+    margin-top: 5%;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 5%;
+    color: white;
+    background-color: #24313d;
+}
+
+.footer-ul,
+.useful {
+    margin-left: 20%;
+}
+
+.useful {
+    padding-top: 30%;
+    margin-left: 20%;
+}
+
+.contact {
+    margin-left: 20%;
+    margin-top: 30%;
+}
+
+.footer-h6 {
+    margin-left: 20%;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+    .section-2 {
+        margin-top: 20%;
+    }
+    .testimonial {
+        color: #d24949;
+        text-align: center;
+    }
+    .testimonial-image-parent {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .lorem {
+        color: navy;
+        text-align: justify;
+    }
+    .unique-image {
+        border-radius: 100%;
+        width: 40%;
+        margin-left: 30%;
+        padding: 3%;
+    }
+    .william {
+        text-align: center;
+        color: #d24949;
+        font-weight: bold;
+    }
+    .child-3,
+    .child-4 {
+        width: 100%;
+    }
+    .child {
+        border: 5px solid black;
+        padding: 3%;
+        background-color: white;
+        border-bottom: 10px solid navy;
+        margin-top: 5%;
+    }
+}
